@@ -33,6 +33,8 @@
 
 .img-container {
   display: flex;
+  margin-left: -8px;
+  margin-right: -8px;
 }
 
 .img-wrapper {
@@ -60,7 +62,7 @@
   height: 13px;
   background-color: #F5BD41;
   border: none;
-  margin-bottom: 25px;
+  margin-bottom: 15px;
   border-radius: 100%;
   display: inline-block;
 }
