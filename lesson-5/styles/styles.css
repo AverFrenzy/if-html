@@ -5,50 +5,45 @@
   padding: 0;
   box-sizing: border-box;
   list-style-type: none;
+  font-family: 'Roboto', sans-serif;
 }
-
 a {
   text-decoration: none;
   color: #FFFFFF;
 }
-
 .footer-container {
   width: 1264px;
   padding: 120px 16px;
   margin: 0 auto;
   background-color: #10367C;
 }
-
-.navigation {
+.footer-links {
   display: flex;
   justify-content: space-around;
-  margin-bottom: 65px;
+  margin-bottom: 55px;
 }
-
 .footer-header {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-size: 20px;
-  line-height: 2.1em;
+  line-height: 2.3em;
   color: #FFFFFF;
 }
-
 .footer-link {
-  font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
-  line-height: 2.1em;
-
+  line-height: 2.4em;
+  white-space: pre;
 }
-
 .copyright {
-display: block;
-margin-left: 120px;
-color: #FFFFFF;
-font-family: 'Roboto', sans-serif;
-font-style: normal;
-font-weight: 300;
-font-size: 15px;
+  display: block;
+  margin-left: 90px;
+  color: #FFFFFF;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+}
+.footer-item {
+  width: 18.5%;
 }
